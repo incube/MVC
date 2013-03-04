@@ -6,7 +6,8 @@ namespace Incube\Mvc\Controller;
   *
   * TODO: Manage contentyp and header in a SingleTime class
   */
-use Incube\Base\Pattern\IUri;
+use Incube\Base\Pattern\IUri,
+    Incube\Mvc\Controller\ActionException;
 class Action {
 
 	/** @var Class_Config **/
