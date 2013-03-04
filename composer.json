@@ -1,0 +1,25 @@
+{
+    "name": "incube/mvc",
+    "type": "library",
+    "keywords": ["framework", "incube", "mvc"],
+    "description": "MVC Brick, part of incube framework based on IOC, Simplicity and Flexibility",
+    "homepage": "http://github.com/Incube/mvc",
+    "license": "GPLv3.0",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Nicolas Morel",
+            "email": "incube@incubatio.org"
+        }
+    ],
+    "require": {
+        "incube/base": "dev-master",
+        "incube/web": "dev-master",
+        "incube/event": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "lib"
+        ]
+    }
+}
